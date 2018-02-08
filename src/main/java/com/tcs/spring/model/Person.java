@@ -14,7 +14,7 @@ import javax.persistence.Table;
  *
  */
 @Entity
-@Table(name="PERSON",schema = "competencydev")
+@Table(name="PERSON",schema = "Pocapp")
 public class Person {
 
 	@Id

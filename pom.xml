@@ -142,11 +142,18 @@
 			<version>1.2</version>
 		</dependency>
 			<!-- PostGres Database -->
-		 <dependency>
-    <groupId>org.postgresql</groupId>
-    <artifactId>postgresql</artifactId>
-    <version>9.3-1100-jdbc41</version>
+		
+<!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/sqljdbc4 -->
+<!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc -->
+<dependency>
+    <groupId>com.microsoft.sqlserver</groupId>
+    <artifactId>mssql-jdbc</artifactId>
+    <version>6.1.0.jre8</version>
+    <scope>test</scope>
 </dependency>
+
+
+
 	
 		<!-- Test -->
 		<dependency>
